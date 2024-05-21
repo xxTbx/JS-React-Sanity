@@ -1,0 +1,152 @@
+section {
+    display:flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+}
+header {
+    margin-left: 1%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+#filter {
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+input {
+    padding-top: 1.5%; 
+    padding-bottom: 1.5%;
+    width:500px;
+    border-radius: 5px;
+}
+
+.check {
+    flex-direction: row;
+    gap: -100px;
+    padding: 1%;
+}
+
+.self {
+    width:20px
+}
+
+#signupBtn {
+    background-color: lightgreen;
+    margin-top: 5%;
+    margin-right: 6%;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    width:40%;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid lightgreen;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+}
+
+select {
+    width:200%;
+    height: 30px;
+}
+section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+input {
+    padding-top: 1.5%; 
+    padding-bottom: 1.5%;
+    width:100%;
+}
+
+.check {
+    flex-direction: row;
+    gap: -100px;
+}
+
+.self {
+    width:20px
+}
+
+button {
+    background-color: lightgreen;
+    margin-right: 6%;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    width:40%
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    position: fixed;
+    bottom: 0;
+}
+
+#nav1 {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 20px;
+    font-family: Verdana;
+}
+#nav2 {
+    margin-right: 0%;
+    gap: 0;
+    font-family: Verdana;
+}
+#nav3 {
+    margin-left: 0;
+    margin-right: 5%;
+    font-family: Verdana;
+}
+
+.notActive {
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.active {
+    text-decoration: underline black;
+    font-weight: bold;
+}
+
+#signupWrapper {
+    width: 100%;
+}

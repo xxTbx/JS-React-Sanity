@@ -1,0 +1,79 @@
+:root {
+  --green: rgb(25, 232, 168);
+  --purple: rgb(198, 165, 230);
+  --blue: rgb(125, 227, 240);
+  --red: rgb(226, 101, 91);
+  --input: rgb(244, 244, 244);
+  --input-border: rgb(211, 211, 211);
+  --grey: rgb(183, 183, 183);
+  --text: rgb(41, 41, 41);
+  --box-border: rgb(23, 23, 23);
+  --box-border-width: 3px;
+  --box-shadow: 0 6px 12px rgba(0, 0, 0, 0.16);
+  --background: rgb(34, 114, 139);
+  --white: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Start styling her */
+
+body {
+  background-color: #2596be;
+}
+
+#knapper {
+    
+margin-top: 5%;
+  position: relative;
+  text-align: center;
+}
+
+#add {
+  background-color: white;
+  padding: 1.5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 25px;
+  margin: 1%;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+#sort {
+  background-color: white;
+  padding: 1.5%;
+  padding-right: 3%;
+  padding-left: 3%;
+  border-radius: 25px;
+  margin: 1%;
+  font-weight: bold;
+  font-size: 200%;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+li {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-color: black;
+    border: 2px;
+    padding: 3%;
+    font-size: 200%;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 25px;
+}
+
+li a {
+    color: black;
+    text-align: center;
+}
